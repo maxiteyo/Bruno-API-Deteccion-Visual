@@ -1,11 +1,11 @@
 info:
-  name: Untitled
+  name: S1 - Listar Modelos
   type: http
   seq: 1
 
 http:
   method: GET
-  url: ""
+  url: "{{remoto}}/api/models"
   auth: inherit
 
 settings:
