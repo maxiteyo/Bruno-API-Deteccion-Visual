@@ -1,0 +1,6 @@
+name: Variables de Entorno
+variables:
+  - name: remoto
+    value: https://bfts2026.mooo.com
+  - name: local
+    value: http://localhost
