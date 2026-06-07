@@ -1,0 +1,26 @@
+info:
+  name: S4 - Buscar Detecciones
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: "{{local}}/api/frames/search"
+  query:
+    - name: clases
+      value: "person,car"
+    - name: lat_min
+      value: "-35.0"
+    - name: lat_max
+      value: "-30.0"
+    - name: lon_min
+      value: "-65.0"
+    - name: lon_max
+      value: "-58.0"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
